@@ -124,7 +124,7 @@
     "cm.msdeploy.packageurl": {
       "type": "securestring",
       "minLength": 1,
-      "defaultValue": "https://aammediastorage.blob.core.windows.net/media-input/Sitecore%208.2%20rev.%20170407_cm.scwdp.zip"
+      "defaultValue": "https://aammediastorage.blob.core.windows.net/media-inputv2/Sitecore%208.2%20rev.%20170407_cm.scwdp.zip"
     },
     "cm.core.sqldatabase.username": {
       "type": "string",
@@ -164,7 +164,7 @@
     "cd.msdeploy.packageurl": {
       "type": "securestring",
       "minLength": 1,
-      "defaultValue": "https://aammediastorage.blob.core.windows.net/media-input/Sitecore%208.2%20rev.%20170407_cd.scwdp.zip"
+      "defaultValue": "https://aammediastorage.blob.core.windows.net/media-inputv2/Sitecore%208.2%20rev.%20170407_cd.scwdp.zip"
     },
     "cd.core.sqldatabase.username": {
       "type": "string",
