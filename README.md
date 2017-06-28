@@ -8,5 +8,12 @@ This template is for testing purposes only and deploys a Sitecore environment wi
 </a>
 
 
+## ASE V1 REVISED
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdavesamuelson%2Ftesting%2Fmaster%2Fasev1revised%2Fazuredeploy.json" target="_blank">
+<img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
+
+
 ## ASE V1
 TODO:  Link for V2 to be inserted here
