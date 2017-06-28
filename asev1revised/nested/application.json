@@ -223,7 +223,6 @@
           "Core DB User Name": "[parameters('cd.core.sqldatabase.username')]",
           "Core DB Password": "[parameters('cd.core.sqldatabase.password')]",
           "Core Admin Connection String": "[concat('Encrypt=True;TrustServerCertificate=False;Data Source=', variables('sqlServerFqdnTidy'), ',1433;Initial Catalog=',variables('coreDbNameTidy'),';User Id=', parameters('sqlserver.login'), ';Password=', parameters('sqlserver.password'), ';')]",
-          "Core Connection String": "[concat('Encrypt=True;TrustServerCertificate=False;Data Source=', variables('sqlServerFqdnTidy'), ',1433;Initial Catalog=',variables('coreDbNameTidy'),';User Id=', parameters('cd.core.sqldatabase.username'), ';Password=', parameters('cd.core.sqldatabase.password'), ';')]",
           "Web Admin Connection String": "[concat('Encrypt=True;TrustServerCertificate=False;Data Source=', variables('webSqlServerFqdnTidy'), ',1433;Initial Catalog=',variables('webDbNameTidy'),';User Id=', parameters('web.sqlserver.login'), ';Password=', parameters('web.sqlserver.password'), ';')]"
          }
       }
