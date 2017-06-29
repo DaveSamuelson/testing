@@ -169,6 +169,7 @@
     "searchApiVersion": "2015-08-19",
     "searchPreviewApiVersion": "2015-02-28-preview",
     "redisApiVersion": "2016-04-01",
+
     "appInsightsApiVersion": "2015-05-01",
     "cmWebAppNameTidy": "[toLower(trim(parameters('cmWebAppName')))]",
     "cdWebAppNameTidy": "[toLower(trim(parameters('cdWebAppName')))]",
@@ -222,6 +223,8 @@
           "Sitecore Admin New Password": "[parameters('sitecore.admin.password')]",
           "Core DB User Name": "[parameters('cd.core.sqldatabase.username')]",
           "Core DB Password": "[parameters('cd.core.sqldatabase.password')]",
+          "Web DB User Name": "[parameters('cd.web.sqldatabase.username')]",
+          "Web DB Password": "[parameters('cd.web.sqldatabase.password')]",
           "Core Admin Connection String": "[concat('Encrypt=True;TrustServerCertificate=False;Data Source=', variables('sqlServerFqdnTidy'), ',1433;Initial Catalog=',variables('coreDbNameTidy'),';User Id=', parameters('sqlserver.login'), ';Password=', parameters('sqlserver.password'), ';')]",
           "Web Admin Connection String": "[concat('Encrypt=True;TrustServerCertificate=False;Data Source=', variables('webSqlServerFqdnTidy'), ',1433;Initial Catalog=',variables('webDbNameTidy'),';User Id=', parameters('web.sqlserver.login'), ';Password=', parameters('web.sqlserver.password'), ';')]"
          }
